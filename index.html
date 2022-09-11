@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="container">
+            <h2>Inserir Tarefa</h2>
+        <div class="inserirTarefa">
+            <div class="campos">
+                <input type="text" placeholder="Digitar Tarefa" name="titulo" onfocus="this.value='';" />
+                <input type="text" placeholder="Selecionar tipo" name="tipo" onfocus="this.value='';" />
+            </div>
+            <div class="botaoAdicionar">
+                <button class="botao">Adicionar Tarefa na Lista</button>
+            </div>
+        </div>
+    </main>
+        <section class="containerListaDeTarefas">
+            <h2>Tarefas</h2>
+                <ul class="listaDeTarefaUrgente">
+                </ul>
+        </section>
+        <section class="containerListaDeTarefas">
+            <ul class="listaDeTarefaPrioritario">
+            </ul>
+        </section>
+        <section class="containerListaDeTarefas">
+            <ul class="listaDeTarefaAdicionais">
+            </ul>
+        </section>
+    <script src="script.js"></script>
+</body>
+</html>

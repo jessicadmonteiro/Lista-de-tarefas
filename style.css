@@ -1,0 +1,120 @@
+body{
+    margin: 0%;
+}
+.container{
+    max-width: 700px;
+    height: 200px;
+    margin: auto;
+    background-color: rgba(169, 169, 169, 0.055);
+    border-radius: 5px;
+}
+.container > h2{
+    padding: 20px 20px 10px 40px;
+    
+}
+.inserirTarefa{
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    
+}
+.campos{
+    display: flex;
+    justify-content: space-between;
+}
+.campos > input{
+    width: 170px;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(187, 184, 184, 0.26);
+    color: black;
+    border: transparent;
+}
+.botaoAdicionar{
+    display: flex;
+    justify-content: center;
+}
+.botaoAdicionar > button{
+    width: 600px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(50, 50, 226);
+    color: #fff;
+    border: transparent;
+}
+.botaoAdicionar > button:hover{
+    background-color: #fff;
+    color: rgb(50, 50, 226);
+    border: solid rgb(50, 50, 226) 1px;
+}
+.receberDados{
+    width: 700px;
+    margin: auto;
+    background-color: blue;
+}
+.containerListaDeTarefas{
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(169, 169, 169, 0.055);
+    border-radius: 5px;
+    gap: 5px;
+}
+.containerListaDeTarefas > h2{
+    padding: 20px 20px 10px 40px;
+}
+
+.listaDeTarefaUrgente{
+    width: 400px;
+    margin: auto;
+}
+.listaDeTarefaPrioritario{
+    width: 400px;
+    margin: auto;
+}
+.listaDeTarefaAdicionais{
+    width: 400px;
+    margin: auto;
+}
+.tarefa{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(187, 184, 184, 0.26);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.bolinhas{
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: rgba(187, 184, 184, 0.267);
+}
+.bolinhasVermelhas{
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: rgba(255, 0, 0, 0.603);
+}
+.bolinhasAmarela{
+    width: 15px;
+    height: 15px;
+    margin-top: 15px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: rgba(255, 255, 0, 0.589);
+}
+.tarefa > h5{
+    font-size: 13px;
+}
+.lixeira{
+    width: 20px;
+    height: 20px;
+    margin-top: 15px;
+}
+
