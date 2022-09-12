@@ -61,8 +61,12 @@ body{
     border-radius: 5px;
     gap: 5px;
 }
-.containerListaDeTarefas > h2{
+.tituloTarefas{
+    max-width: 700px;
+    margin: auto;
+    border-radius: 5px;
     padding: 20px 20px 10px 40px;
+    margin-top: 5px;
 }
 
 .listaDeTarefaUrgente{
